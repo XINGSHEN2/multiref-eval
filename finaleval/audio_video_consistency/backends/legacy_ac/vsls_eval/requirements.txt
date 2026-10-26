@@ -1,0 +1,8 @@
+numpy
+opencv-python
+scipy
+torch
+torchvision
+python_speech_features
+webrtcvad==2.0.10
+imageio-ffmpeg

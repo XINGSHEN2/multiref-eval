@@ -1,0 +1,15 @@
+{
+  "dataset_root": "/mnt/AINAS0/user/xingshen/MultiRef-Compass",
+  "model_cache": "/mnt/AINAS0/user/xingshen/multiref-eval-models",
+  "runtime_cache": "/mnt/AINAS0/user/xingshen/multiref-eval-cache",
+  "judges": {
+    "visual": {
+      "model": "Qwen3.8-27B",
+      "status": "not_integrated"
+    },
+    "audio_video": {
+      "model": "Qwen3-Omni",
+      "status": "not_integrated"
+    }
+  }
+}

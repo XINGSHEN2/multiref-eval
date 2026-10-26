@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multiref-eval"
+version = "0.1.0"
+description = "MultiRef-Compass scoring baseline with local judge adaptation"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+scoring = ["torch", "torchaudio", "speechbrain", "soundfile", "pyyaml"]
+
+[project.scripts]
+multiref-eval = "multiref_eval.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["multiref_eval*", "finaleval*"]
+
+[tool.setuptools.package-data]
+finaleval = ["**/*.sh", "**/*.md", "**/*.csv", "**/*.txt"]

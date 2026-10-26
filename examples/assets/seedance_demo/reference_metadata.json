@@ -1,0 +1,20 @@
+{
+  "sample_id": "demo_seedance_board2_113",
+  "source_sample_id": "board2_113",
+  "model_name": "seedance",
+  "board": "board2",
+  "prompt": "@Video1 is one subject, @Image1 is another subject, and @Image2 is the background. In a cinematic realistic style, @Video1 lifts a suitcase handle in @Image2's airport terminal and holds it steady. @Image1 threads a luggage tag around the handle, pulls the loop tight, and points to the tag. During the speaking moment, @Video1 and @Image1 use @Audio1's voice timbre to speak. @Video1 then begins to roll the suitcase forward, walking through the terminal.",
+  "references": {
+    "images": [
+      "reference_image_1.png",
+      "reference_image_2.jpg"
+    ],
+    "video": "reference_video.mp4",
+    "audio": "reference_audio.wav"
+  },
+  "generated_video": "generated_video.mp4",
+  "has_speech": true,
+  "has_sound": true,
+  "has_music": false,
+  "notes": "Sanitized demo metadata. Paths are relative to this metadata file."
+}

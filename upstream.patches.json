@@ -1,0 +1,6 @@
+{
+  "finaleval/entity_fidelity/backends/legacy_ef/mllm/detail_preservation_eval.py": {
+    "sha256": "8386b4593e4e971cf4c7327c38d4e9034babd0d195a6bd2aa5b9fe522837b06c",
+    "reason": "Python 3.10 compatibility: report string formatting only; scoring unchanged."
+  }
+}

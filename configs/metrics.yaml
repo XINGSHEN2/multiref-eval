@@ -1,0 +1,30 @@
+basic_quality:
+  main:
+    - visual_quality
+    - audio_quality
+    - anatomical_consistency
+
+entity_fidelity:
+  main:
+    - entity_fidelity
+    - detail_preservation
+    - detail_binding
+  auxiliary:
+    - paste_artifact_penalty
+
+audio_video_consistency:
+  main:
+    - speech_lip_synchronization
+    - visual_event_sound_alignment
+    - source_correctness
+    - voice_timbre_similarity
+  auxiliary:
+    - stable_speaking_frontal_face
+
+instruction_following:
+  main:
+    - visual_task_following
+    - audio_task_following
+    - temporal_order_following
+    - speech_content_accuracy
+
