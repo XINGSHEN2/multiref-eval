@@ -1,0 +1,22 @@
+{
+  "root_on_aigc18": "/mnt/AINAS0/user/xingshen/multiref-eval-models",
+  "paths_are_relative_to_root": true,
+  "inference_verified": false,
+  "weights": {
+    "dover": "dover/DOVER.pth",
+    "dover_plus_plus": "dover/DOVER_plus_plus.pth",
+    "audiobox": "audiobox-aesthetics/checkpoint.pt",
+    "syncnet": "latentsync/auxiliary/syncnet_v2.model",
+    "ecapa": "spkrec-ecapa-voxceleb",
+    "siglip": "entity_fidelity/siglip-base-patch16-224",
+    "dinov2": "entity_fidelity/dinov2-base",
+    "elasticface_arc": "entity_fidelity/face_recognizers/elasticface_arc_r100.pth",
+    "yolo_world": "entity_fidelity/OpenS2V-Weight/yolo_world_v2_l_image_prompt_adapter-719a7afb.pth",
+    "curricularface": "entity_fidelity/OpenS2V-Weight/glint360k_curricular_face_r101_backbone.bin",
+    "face_root": "entity_fidelity/OpenS2V-Weight/face_extractor",
+    "anime_yolov8": "entity_fidelity/anime_face_detectors/yolov8/yolov8x6_animeface.pt"
+  },
+  "elasticface_sha256": "8ea1772a9dc0e95b77c171a1713f667f353d86ad66f2e3d418e7973360d2fb28",
+  "elasticface_selection": "Official Arc checkpoint selected with user authorization, not a confirmed identification of the original paper checkpoint.",
+  "note": "Inventory only; current CLI does not automatically wire these paths into every legacy backend."
+}

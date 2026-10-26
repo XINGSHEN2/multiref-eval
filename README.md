@@ -52,10 +52,14 @@ python3 -m multiref_eval validate --input /absolute/path/generated.csv --metrics
 python3 -m multiref_eval evaluate --input /absolute/path/generated.csv --metrics visual_quality --config configs/local.json --output /absolute/path/new-run
 ```
 
-可用 `python3 -m pip install -e .` 安装命令行入口；评分依赖需另按 `docs/model_weights.md` 逐项准备，`pip install -e '.[scoring]'` 仅覆盖基础依赖，不是完整后端环境。尚未安装依赖、启动模型或进行 GPU 评测。
+可用 `python3 -m pip install -e .` 安装命令行入口；评分依赖需另按 `docs/model_weights.md` 逐项准备，`pip install -e '.[scoring]'` 仅覆盖基础依赖，不是完整后端环境。尚未完成评分环境安装或 GPU 评测。权重已下载至 aigc-18 的 NAS，文件清单见 configs/model_assets.json。
 
 ## 来源与许可
 
 官方仓库：https://github.com/zxhhh0201/MultiRef-Compass
 
 固定提交：`03da121e88e241da38b41324291dfa7b8773d132`。保留原 MIT LICENSE，来源及文件哈希见 `upstream.lock.json`。模型权重各自许可独立，不由本仓库 MIT 许可覆盖。
+
+## 北京 3090 机器部署
+
+参见 [部署交接说明](docs/DEPLOY_BEIJING_3090.md)，包括代码就绪边界、数据和权重位置、现有裁判服务，以及待完成的适配。
