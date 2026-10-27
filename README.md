@@ -63,3 +63,7 @@ python3 -m multiref_eval evaluate --input /absolute/path/generated.csv --metrics
 ## 北京 3090 机器部署
 
 参见 [部署交接说明](docs/DEPLOY_BEIJING_3090.md)，包括代码就绪边界、数据和权重位置、现有裁判服务，以及待完成的适配。
+
+## 同模型不同精度对比
+
+参见 [精度对比方案](docs/precision_comparison_plan_zh.md)：配对规则、CPU PSNR/SSIM、可选 LPIPS、DOVER++ 质量差值、权重与资源需求及实施验收。当前为设计方案，compare-pairs 尚未实现；不改变原 14 项指标口径。
